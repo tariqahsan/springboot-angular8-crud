@@ -1,8 +1,7 @@
-package com.javatechie.reg.service.api.dao;
+package org.mma.training.registration.service.api.dao;
 
+import org.mma.training.registration.service.api.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
-
-import com.javatechie.reg.service.api.model.User;
 
 import java.util.List;
 

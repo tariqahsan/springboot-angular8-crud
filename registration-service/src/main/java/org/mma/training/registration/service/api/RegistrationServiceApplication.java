@@ -1,12 +1,11 @@
-package com.javatechie.reg.service.api;
+package org.mma.training.registration.service.api;
 
+import org.mma.training.registration.service.api.dao.UserRepository;
+import org.mma.training.registration.service.api.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.*;
-
-import com.javatechie.reg.service.api.dao.UserRepository;
-import com.javatechie.reg.service.api.model.User;
 
 import java.util.List;
 
