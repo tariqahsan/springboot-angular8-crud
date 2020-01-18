@@ -1,4 +1,4 @@
-package com.javatechie.reg.service.api;
+package org.mma.training.registration.service.api;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
