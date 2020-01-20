@@ -4,7 +4,7 @@ import { RegistrationComponent } from './registration/registration.component';
 import { SerachDeleteComponent } from './serach-delete/serach-delete.component';
 
 const routes: Routes = [
-  {path:"",redirectTo:"register",pathMatch:"full"},
+   {path:"",redirectTo:"register",pathMatch:"full"},
    {path:"register",component:RegistrationComponent},
    {path:"search",component:SerachDeleteComponent}
 ];
