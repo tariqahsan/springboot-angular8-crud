@@ -14,7 +14,7 @@ export class SearchDeleteComponent implements OnInit {
   constructor(private service:UserRegistationService) { }
 
 
-public delteUser(id:number){
+public deleteUser(id:number){
  let resp= this.service.deleteUser(id);
  resp.subscribe((data)=>this.users=data);
 }
